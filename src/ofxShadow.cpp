@@ -83,7 +83,7 @@ void ofxShadow::setShadowColor(ofFloatColor color)
 
 void ofxShadow::begin()
 {
-	assert(cam);
+	//assert(cam);
 	
 	glPushAttrib(GL_ALL_ATTRIB_BITS);
 	
